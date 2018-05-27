@@ -1,0 +1,7 @@
+// The configured options and settings for Tutorial
+#define Tutorial_VERSION_MAJOR @Tutorial_VERSION_MAJOR@
+#define Tutorial_VERSION_MINOR @Tutorial_VERSION_MINOR@
+// Note that USE_MYMATH is used in the source file tutorial.cxx but initially defined in the top level CMakeLists.txt.
+// Thus, this variable should be passed from the top level CMakeLists.txt to the source file.
+// Here, "top level" means the CMakeList.txt in "../" rather than the one defined in "./MathFunctions/".
+#cmakedefine USE_MYMATH
